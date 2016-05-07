@@ -86,7 +86,6 @@ public class PartitionInfo {
         }
         if (nodes.length > 0) {
             b.append(Integer.toString(nodes[nodes.length - 1].id()));
-            b.append(',');
         }
         b.append("]");
         return b.toString();
